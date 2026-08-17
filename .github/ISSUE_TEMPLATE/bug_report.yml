@@ -1,0 +1,95 @@
+name: "🐛 Bug Report"
+description: File a bug report to help us improve the mod.
+title: "[BUG]: "
+labels: ["bug"]
+body: 
+
+* type: markdown
+attributes:
+value: |
+Thank you for taking the time to report a bug! Please fill out the form below as accurately as possible.
+* type: textarea
+id: description
+attributes:
+label: Description
+description: A clear and concise description of what the bug is. What exactly happens?
+placeholder: Describe your issue here...
+validations:
+required: true
+* type: textarea
+id: reproduction
+attributes:
+label: Steps to Reproduce
+description: Please describe exactly how to trigger the bug step-by-step.
+placeholder: |
+1. Go to '...'
+2. Click on '...'
+3. See error
+validations:
+required: true
+* type: textarea
+id: expected
+attributes:
+label: Expected Behavior
+description: A clear and concise description of what you expected to happen instead.
+placeholder: What should have happened?
+validations:
+required: true
+* type: dropdown
+id: minecraft-version
+attributes:
+label: Minecraft Version
+description: Select the Minecraft version you are playing on.
+options:
+- "1.21.x"
+- "1.20.x"
+- "1.19.x"
+- "Other (Please specify in context)"
+validations:
+required: true
+* type: input
+id: mod-version
+attributes:
+label: Mod Version
+description: What version of the mod are you using? (e.g., 1.0.4)
+placeholder: e.g., 1.0.4
+validations:
+required: true
+* type: dropdown
+id: mod-loader
+attributes:
+label: Mod Loader
+description: Which mod loader are you using?
+options:
+- Fabric
+- NeoForge
+- Forge
+- Quilt
+validations:
+required: true
+* type: textarea
+id: logs
+attributes:
+label: Log Files (Crash Report / Latest.log)
+description: Please paste your crash report or latest.log here, or provide a Pastebin link.
+placeholder: Paste your log file or link here...
+render: text
+validations:
+required: false
+* type: textarea
+id: context
+attributes:
+label: Additional Context & Other Mods
+description: Add any other context about the problem here (e.g., specific modpacks, multiplayer vs singleplayer).
+placeholder: Any extra information...
+validations:
+required: false
+* type: checkboxes
+id: checkboxes
+attributes:
+label: Acknowledgements
+options:
+- label: I have verified that this issue occurs on the latest version of the mod.
+required: true
+- label: I have included the necessary log files / crash reports.
+required: false

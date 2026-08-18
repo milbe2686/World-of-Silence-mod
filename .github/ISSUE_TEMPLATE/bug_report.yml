@@ -75,7 +75,6 @@ body:
     id: terms
     attributes:
       label: Acknowledgements
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com).
       options:
         - label: I have verified that this issue occurs on the latest version of the mod.
           required: true

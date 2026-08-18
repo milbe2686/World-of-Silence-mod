@@ -1,4 +1,4 @@
-name: "Bug Report"
+name: Bug Report
 description: File a bug report to help us improve the mod.
 title: "[BUG] "
 labels: ["bug"]
@@ -20,7 +20,10 @@ id: reproduction
 attributes:
 label: Steps to Reproduce
 description: Please describe exactly how to trigger the bug step by step.
-placeholder: 1. Go to... 2. Click on... 3. See error
+placeholder: |
+1. Go to '...'
+2. Click on '...'
+3. See error
 validations:
 required: true
 * type: textarea

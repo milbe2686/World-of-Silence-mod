@@ -4,10 +4,10 @@ title: "[BUG] "
 labels: ["bug"]
 body: 
 
-* type: markdown
+- type: markdown
 attributes:
 value: Thank you for taking the time to report a bug. Please fill out the form below as accurately as possible.
-* type: textarea
+- type: textarea
 id: description
 attributes:
 label: Description
@@ -15,18 +15,15 @@ description: A clear and concise description of what the bug is. What exactly ha
 placeholder: Describe your issue here...
 validations:
 required: true
-* type: textarea
+- type: textarea
 id: reproduction
 attributes:
 label: Steps to Reproduce
 description: Please describe exactly how to trigger the bug step by step.
-placeholder: |
-1. Go to '...'
-2. Click on '...'
-3. See error
+placeholder: 1. Go to... 2. Click on... 3. See error
 validations:
 required: true
-* type: textarea
+- type: textarea
 id: expected
 attributes:
 label: Expected Behavior
@@ -34,7 +31,7 @@ description: A clear and concise description of what you expected to happen inst
 placeholder: What should have happened?
 validations:
 required: true
-* type: dropdown
+- type: dropdown
 id: minecraft-version
 attributes:
 label: Minecraft Version
@@ -46,7 +43,7 @@ options:
 - "Other"
 validations:
 required: true
-* type: input
+- type: input
 id: mod-version
 attributes:
 label: Mod Version
@@ -54,7 +51,7 @@ description: What version of the mod are you using?
 placeholder: e.g. 1.0.4
 validations:
 required: true
-* type: dropdown
+- type: dropdown
 id: mod-loader
 attributes:
 label: Mod Loader
@@ -66,7 +63,7 @@ options:
 - Quilt
 validations:
 required: true
-* type: textarea
+- type: textarea
 id: logs
 attributes:
 label: Log Files
@@ -74,7 +71,7 @@ description: Please paste your crash report or latest.log here.
 placeholder: Paste your log file or link here...
 validations:
 required: false
-* type: textarea
+- type: textarea
 id: context
 attributes:
 label: Additional Context
@@ -82,7 +79,7 @@ description: Add any other context about the problem here.
 placeholder: Any extra information...
 validations:
 required: false
-* type: checkboxes
+- type: checkboxes
 id: checkboxes
 attributes:
 label: Acknowledgements

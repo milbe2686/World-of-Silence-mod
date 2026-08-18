@@ -1,87 +1,91 @@
 name: Bug Report
-description: File a bug report to help us improve the mod.
-title: "[BUG] "
-labels: ["bug"]
-body: 
-- type: markdown
-attributes:
-value: Thank you for taking the time to report a bug. Please fill out the form below as accurately as possible.
-- type: textarea
-id: description
-attributes:
-label: Description
-description: A clear and concise description of what the bug is. What exactly happens?
-placeholder: Describe your issue here...
-validations:
-required: true
-- type: textarea
-id: reproduction
-attributes:
-label: Steps to Reproduce
-description: Please describe exactly how to trigger the bug step by step.
-placeholder: 1. Go to... 2. Click on... 3. See error
-validations:
-required: true
-- type: textarea
-id: expected
-attributes:
-label: Expected Behavior
-description: A clear and concise description of what you expected to happen instead.
-placeholder: What should have happened?
-validations:
-required: true
-- type: dropdown
-id: minecraft-version
-attributes:
-label: Minecraft Version
-description: Select the Minecraft version you are playing on.
-options:
-- "1.21.x"
-- "1.20.x"
-- "1.19.x"
-- "Other"
-validations:
-required: true
-- type: input
-id: mod-version
-attributes:
-label: Mod Version
-description: What version of the mod are you using?
-placeholder: e.g. 1.0.4
-validations:
-required: true
-- type: dropdown
-id: mod-loader
-attributes:
-label: Mod Loader
-description: Which mod loader are you using?
-options:
-- Fabric
-- NeoForge
-- Forge
-- Quilt
-validations:
-required: true
-- type: textarea
-id: logs
-attributes:
-label: Log Files
-description: Please paste your crash report or latest.log here.
-placeholder: Paste your log file or link here...
-validations:
-required: false
-- type: textarea
-id: context
-attributes:
-label: Additional Context
-description: Add any other context about the problem here.
-placeholder: Any extra information...
-validations:
-required: false
-- type: checkboxes
-id: checkboxes
-attributes:
-label: Acknowledgements
-options:
-- label: I have verified that this issue occurs on the latest version of the mod.
-required: true
+description: File a bug report.
+title: "[Bug]: "
+labels: ["bug", "triage"]
+projects: ["octo-org/1", "octo-org/44"]
+assignees:
+  - octocat
+type: bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Also tell us, what did you expect to happen?
+      placeholder: Tell us what you see!
+      value: "A bug happened!"
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce?
+      description: Please describe exactly how to trigger the bug step by step.
+      placeholder: 1. Go to... 2. Click on... 3. See error
+    validations:
+      required: true
+ - type: dropdown
+    id: minecraft-version
+    attributes:
+      label: Version
+      description: What Minecraft version are you playing on?
+      options:
+        - 26.1.2
+        - 26.2
+    validations:
+      required: true
+  - type: dropdown
+    id: mod-version
+    attributes:
+      label: Version
+      description: What Mod version do you use?
+      options:
+        - 1.0.0 (Default)
+        - 1.0.1 (Snapshot)
+      default: 0
+    validations:
+      required: true
+  - type: dropdown
+    id: Loader
+    attributes:
+      label: What mod Loader do you use?
+      multiple: true
+      options:
+        - Fabric
+        - Neoforge
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant log files
+      description: Please copy and paste the crash report ore the latest.log.
+      placeholder: Paste your log file or link here...
+    validations:
+      required: false
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional Context
+      description: Add any other context about the problem here.
+      placeholder: Any extra information...
+    validations:
+      required: false
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Acknowledgements
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com).
+      options:
+        - label: I have verified that this issue occurs on the latest version of the mod.
+          required: true
+  - type: upload
+    id: screenshots
+    attributes:
+      label: Upload screenshots
+      description: If applicable, add screenshots to help explain your problem.
+    validations:
+      required: false

@@ -3,7 +3,6 @@ description: File a bug report to help us improve the mod.
 title: "[BUG] "
 labels: ["bug"]
 body: 
-
 - type: markdown
 attributes:
 value: Thank you for taking the time to report a bug. Please fill out the form below as accurately as possible.

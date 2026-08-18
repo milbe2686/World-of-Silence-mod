@@ -50,7 +50,6 @@ body:
     id: Loader
     attributes:
       label: What mod Loader do you use?
-      multiple: true
       options:
         - Fabric
         - Neoforge

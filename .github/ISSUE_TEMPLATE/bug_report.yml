@@ -1,13 +1,12 @@
-name: "🐛 Bug Report"
+name: "Bug Report"
 description: File a bug report to help us improve the mod.
-title: "[BUG]: "
+title: "[BUG] "
 labels: ["bug"]
 body: 
 
 * type: markdown
 attributes:
-value: |
-Thank you for taking the time to report a bug! Please fill out the form below as accurately as possible.
+value: Thank you for taking the time to report a bug. Please fill out the form below as accurately as possible.
 * type: textarea
 id: description
 attributes:
@@ -20,11 +19,8 @@ required: true
 id: reproduction
 attributes:
 label: Steps to Reproduce
-description: Please describe exactly how to trigger the bug step-by-step.
-placeholder: |
-1. Go to '...'
-2. Click on '...'
-3. See error
+description: Please describe exactly how to trigger the bug step by step.
+placeholder: 1. Go to... 2. Click on... 3. See error
 validations:
 required: true
 * type: textarea
@@ -44,15 +40,15 @@ options:
 - "1.21.x"
 - "1.20.x"
 - "1.19.x"
-- "Other (Please specify in context)"
+- "Other"
 validations:
 required: true
 * type: input
 id: mod-version
 attributes:
 label: Mod Version
-description: What version of the mod are you using? (e.g., 1.0.4)
-placeholder: e.g., 1.0.4
+description: What version of the mod are you using?
+placeholder: e.g. 1.0.4
 validations:
 required: true
 * type: dropdown
@@ -70,17 +66,16 @@ required: true
 * type: textarea
 id: logs
 attributes:
-label: Log Files (Crash Report / Latest.log)
-description: Please paste your crash report or latest.log here, or provide a Pastebin link.
+label: Log Files
+description: Please paste your crash report or latest.log here.
 placeholder: Paste your log file or link here...
-render: text
 validations:
 required: false
 * type: textarea
 id: context
 attributes:
-label: Additional Context & Other Mods
-description: Add any other context about the problem here (e.g., specific modpacks, multiplayer vs singleplayer).
+label: Additional Context
+description: Add any other context about the problem here.
 placeholder: Any extra information...
 validations:
 required: false
@@ -91,5 +86,3 @@ label: Acknowledgements
 options:
 - label: I have verified that this issue occurs on the latest version of the mod.
 required: true
-- label: I have included the necessary log files / crash reports.
-required: false

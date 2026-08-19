@@ -53,6 +53,8 @@ body:
       options:
         - Fabric
         - Neoforge
+    validations:
+      required: true
   - type: textarea
     id: logs
     attributes:

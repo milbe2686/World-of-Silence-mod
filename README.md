@@ -19,7 +19,7 @@ Clean and ignite the portal at the Ancient City to enter a brand-new dimension!
 
 You can download the official, safe versions of this mod on Modrinth and Curseforge:
 
-👉 [**Download on Modrinth**](https://modrinth.com/mod/world-of-silence)
+👉 [**Download on Modrinth**](https://modrinth.com/mod/world-of-silence)(Soon)
 
 👉 [**Download on Curseforge**](https://www.curseforge.com/minecraft/mc-mods/world-of-silence)
 

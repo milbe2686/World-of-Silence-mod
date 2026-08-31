@@ -4,7 +4,7 @@ Clean and ignite the portal at the Ancient City to enter a brand-new dimension!
 
 ### 🌍 Features
 
-* **4 Unique Biomes:** Explore the Sculk Wastes, Gloom Sculk Valley, Silence Forest, and Sculk Forest. Each biome features its own custom blocks and style, with more biomes coming soon.
+* **Unique Biomes:** Explore the Sculk Wastes, Gloom Sculk Valley, Silence Forest, and Sculk Forest. Each biome features its own custom blocks and style, with more biomes coming soon.
 * **Custom Structures:** Discover dangerous new structures, including two variants of the Silence Castle. The large castle is home to the Mega Warden. You can also find Waypoints containing maps that lead straight to the Echo Palace.
 * **Dangerous Mobs:** Face brand-new threats haunting the dimension, such as the Baby Warden, Echo Skeleton, Echo Zombie, and Echo Creeper.
 * **Special Items:** Equip powerful new gear, including unique Crystals with special abilities and the Warden Staff, which allows you to unleash a devastating Sonic Boom.

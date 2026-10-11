@@ -33,6 +33,7 @@ body:
       options:
         - "26.1.2"
         - "26.2"
+        - "26.3"
     validations:
        required: true
   - type: dropdown
@@ -41,8 +42,12 @@ body:
       label: Version
       description: What Mod version do you use?
       options:
-        - 1.0.0 (Default)
-        - 1.0.1 (Snapshot)
+        - 1.0.0 
+        - 1.1.0
+        - 1.2.0
+        - 1.3.0
+        - 1.4.0
+        - 1.5.0
       default: 0
     validations:
       required: true

@@ -6,24 +6,24 @@ labels: ["feature request"]
 assignees: ''
 body:
 - type: markdown
-    attributes:
+  attributes:
       value: |
         Thanks for taking the time to fill out this!
 
 - type: textarea
-    id: idea
-    attributes:
+  id: idea
+  attributes:
       label: What is your idea?
       description: Also tell us, what do you want in comming updates?
       placeholder: Write it down here!
       value: "Feature request!"
-    validations:
+  validations:
       required: true
 - type: upload
-    id: screenshots
-    attributes:
+  id: screenshots
+  attributes:
       label: Upload screenshots
       description: If applicable, add screenshots to help explain your problem.
-    validations:
+  validations:
       required: false
 

@@ -31,6 +31,9 @@ body:
       label: Version
       description: What Minecraft version are you playing on?
       options:
+        - "1.21.1"
+        - "1.21.8"
+        - "1.21.11"
         - "26.1.2"
         - "26.2"
         - "26.3"
@@ -48,6 +51,7 @@ body:
         - 1.3.0
         - 1.4.0
         - 1.5.0
+        - 1.6.0
       default: 0
     validations:
       required: true

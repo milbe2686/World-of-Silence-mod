@@ -1,0 +1,25 @@
+
+name: Feature request
+about: Suggest an idea for this project
+title: ''
+labels: ["feature request"]
+assignees: ''
+body:
+
+- type: textarea
+    id: idea
+    attributes:
+      label: What is your idea?
+      description: Also tell us, what do you want in comming updates?
+      placeholder: Write it down here!
+      value: "Feature request!"
+    validations:
+      required: true
+- type: upload
+    id: screenshots
+    attributes:
+      label: Upload screenshots
+      description: If applicable, add screenshots to help explain your problem.
+    validations:
+      required: false
+

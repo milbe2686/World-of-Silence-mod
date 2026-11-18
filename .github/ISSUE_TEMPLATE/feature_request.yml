@@ -22,7 +22,7 @@ body:
   id: screenshots
   attributes:
       label: Upload screenshots
-      description: If applicable, add screenshots to help explain your problem.
+      description: If applicable, add screenshots to help us understanding your idea.
   validations:
       required: false
 
